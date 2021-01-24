@@ -4,30 +4,30 @@ public class Produit5 implements Interface {
 	private String libelle;
 	private double prix;
 	private int qnt;
-	@Override
-	public String getLibelle() {
-		return libelle;
-	}
+	
 	
 	// GET - SET
 	
-	@Override
+	public String getLibelle() {
+		return libelle;
+	}
+
 	public void setLibelle(String libelle) {
 		this.libelle = libelle;
 	}
-	@Override
+
 	public double getPrix() {
 		return prix;
 	}
-	@Override
+
 	public void setPrix(double prix) {
 		this.prix = prix;
 	}
-	@Override
+
 	public int getQnt() {
 		return qnt;
 	}
-	@Override
+
 	public void setQnt(int qnt) {
 		this.qnt = qnt;
 	}
@@ -43,6 +43,7 @@ public class Produit5 implements Interface {
 		this.qnt = qnt;
 	}
 	
+	
 	public Produit5() {
 		// TODO Auto-generated constructor stub
 	}
@@ -56,7 +57,7 @@ public class Produit5 implements Interface {
 		return "Produit5 [libelle=" + libelle + ", prix=" + prix + ", qnt=" + qnt + "]";
 	}
 
-	// interface afficher
+	// afficher
 	
 	@Override
 	public void afficher() {
